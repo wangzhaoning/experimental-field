@@ -19,11 +19,6 @@ public class LambdaClassTest
                 new Apples(150, "green")));
 //        list.sort(new LambdaClassTest());
         System.out.println(list);
-        list.sort(new Comparator<Apples>() {
-            @Override
-            public int compare(Apples o1, Apples o2) {
-                return o1.getWeight().compareTo(o2.getWeight());
-            }
-        });
+        list.sort((o1, o2) -> o1.getWeight().compareTo(o2.getWeight()));
     }
 }

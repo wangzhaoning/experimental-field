@@ -1,6 +1,6 @@
 package com.other;
 
-public class test {
+public class TestException {
     public static void main(String[] args) {
             int i=0;
         try{

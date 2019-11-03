@@ -13,6 +13,4 @@ public class Traders {
     private String university;
     private String city;
 
-
-
 }

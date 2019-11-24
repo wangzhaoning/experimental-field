@@ -7,11 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="redis-learn" />
         <module name="lambda" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="concurrent" target="6" />
       <module name="lambda" target="8" />
+      <module name="redis-learn" target="7" />
+      <module name="reflect" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/experimental-field.iml" filepath="$PROJECT_DIR$/.idea/experimental-field.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lambda/lambda.iml" filepath="$PROJECT_DIR$/lambda/lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-exercise/lambda.iml" filepath="$PROJECT_DIR$/java-exercise/lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-exercise/redis-learn.iml" filepath="$PROJECT_DIR$/redis-exercise/redis-learn.iml" />
     </modules>
   </component>
 </project>

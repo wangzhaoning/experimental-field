@@ -5,6 +5,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/lambda/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-learn/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/java-exercise/pom.xml" />
       </list>
     </option>
   </component>

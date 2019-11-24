@@ -1,12 +1,12 @@
-package com.java.base;
+package com.wzn.base;
 
-public class Shared {
-    private Shared(){
+public class TryThisKey {
+    private TryThisKey(){
         System.out.println("Share "+this);
     }
 
     public static void main(String[] args) {
-        new Shared();
+        new TryThisKey();
     }
 
     @Override

@@ -1,20 +1,18 @@
-package com.stream;
+package com.wzn.stream;
 
 import lombok.Data;
-
-import java.util.Date;
 
 /**
  * It's handwritten. of course, you can use annotation '@Builder'
  */
 @Data
-public class Transactions {
+public class BeanOfTransactions {
     private final String id;
     private int quota;
     private String time;
-    private Traders traders;
+    private BeanOfTraders traders;
 
-private Transactions(Builder builder){
+private BeanOfTransactions(Builder builder){
     this.id=builder.id;
     this.quota=builder.quora;
     this.time=builder.time;
@@ -25,7 +23,7 @@ private Transactions(Builder builder){
         private final String id;
         private String time;
         private int quora;
-        private Traders traders;
+        private BeanOfTraders traders;
 
         public Builder(String id){
             this.id=id;
@@ -39,12 +37,12 @@ private Transactions(Builder builder){
             return this;
         }
 
-        public Builder traders(Traders val){
+        public Builder traders(BeanOfTraders val){
             this.traders=val;
             return this;
         }
-        public Transactions build(){
-            return new Transactions(this);
+        public BeanOfTransactions build(){
+            return new BeanOfTransactions(this);
         }
     }
 

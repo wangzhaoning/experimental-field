@@ -1,7 +1,21 @@
+package com.wzn.reflect;
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class BeanOfStudent {
     private static BeanOfStudent student = new BeanOfStudent();
     private String name;
     private int age;
+    private Map<Integer, Integer> map = new HashMap<>();
+
+    public Map<Integer, Integer> getMap() {
+        return map;
+    }
+
+    public void setMap(Map<Integer, Integer> map) {
+        this.map = map;
+    }
 
     public String getName() {
         return name;

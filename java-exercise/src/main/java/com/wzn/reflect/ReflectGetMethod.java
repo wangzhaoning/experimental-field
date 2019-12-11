@@ -1,3 +1,6 @@
+package com.wzn.reflect;
+
+
 import java.lang.reflect.Method;
 
 public class ReflectGetMethod {

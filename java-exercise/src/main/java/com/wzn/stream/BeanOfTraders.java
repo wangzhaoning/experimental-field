@@ -3,9 +3,12 @@ package com.wzn.stream;
 
 import lombok.Builder;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 @Builder
-@Data
+@Setter
+@Getter
 public class BeanOfTraders {
     private  String id;
     private String name;
